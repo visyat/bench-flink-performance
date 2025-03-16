@@ -8,7 +8,7 @@ This project evaluates the impact of parallelism tuning on the performance of Ap
 ├── eval.ipynb # Jupyter notebook containing data analysis, charts, and insights
 ├── run-benchmark.sh # Shell script to automate bulk test runs
 └── data/ # Directory containing test data for benchmarking
-``` 
+```
 
 ## How to Run  
 1. Clone the repository:  
@@ -19,11 +19,12 @@ This project evaluates the impact of parallelism tuning on the performance of Ap
     ```bash 
     cd flink-parallelism-tuning
     ```
-3. Run the benchmark tests:
+3. Move the benchmark run script into the top level of your cloned YSB repository (can be found here `https://github.com/yahoo/streaming-benchmarks`)
+   
     ```bash
     ./run-benchmark.sh
     ```
-4. Analyze the results using the Jupyter notebook:
+5. Analyze the results using the Jupyter notebook:
     ```bash
     jupyter notebook eval.ipynb
     ```
